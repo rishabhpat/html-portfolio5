@@ -45,7 +45,7 @@
     content: '';
     width: 0px;
     height: 3px;
-    background: bisque;
+    background: lightskyblue;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -63,7 +63,7 @@
     margin-top: 20px; 
  }
 .header-text h1 span{
-    color: bisque;
+    color: lightskyblue;
 }
 #about{
     padding: 80px 0px;
@@ -104,7 +104,7 @@
     content: '';
     width: 0;
     height: 3px;
-    background: bisque;
+    background: lightskyblue;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -118,14 +118,17 @@
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: bisque;
-    font-size: 14px;
+    color: lightskyblue;
+    font-size: 18px;
 }
 .tab-contents{
     display: none;
 }
 .tab-contents.active-tab{
     display: block;
+}
+.sub-title{
+    color: lightskyblue;
 }
 
 /*----------services--------*/
@@ -163,11 +166,11 @@
     display: inline-block;
 }
 .services-list div:hover{
-    background-color: bisque;
+    background-color: lightskyblue;
             transform: translate(-10px);
 }
 /*--------portfolio----------*/
-#portfolio{
+#experience{
     padding: 50px 0;
 }
 .work-list{
@@ -212,7 +215,7 @@
 }
 .layer a{
     margin-top: 20px;
-    color: bisque;
+    color: lightskyblue;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -232,7 +235,7 @@
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid bisque;
+    border: 1px solid lightskyblue;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -254,7 +257,7 @@
     margin-top: 30px;
 }
 .contact-left p i{
-    color: bisque;
+    color: lightskyblue;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -270,12 +273,12 @@
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: bisque;
+    color: lightskyblue;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: bisque;
+    background: lightskyblue;
 }
 .contact-right form{
     width: 100%;
@@ -324,12 +327,15 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+    .header-text h2{
+        font-size: 16px;
+    }
     nav .fa-solid{
         display: block;
         font-size: 25px;
     }
     nav ul{
-        background: bisque;
+        background: lightskyblue;
         position: fixed;
         top: 0;
         right: -200px;
@@ -378,7 +384,6 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
-
 
 
 
